@@ -30,6 +30,7 @@ tar xf $TEMP_DOWNLOAD_DIR/aerial_map.tar -C $TEMP_DATASET_DIR
 wget https://raw.githubusercontent.com/lyft/l5kit/master/examples/visualisation/visualisation_config.yaml -q
 wget https://raw.githubusercontent.com/lyft/l5kit/master/examples/RL/gym_config.yaml -q
 wget https://raw.githubusercontent.com/lyft/l5kit/master/examples/agent_motion_prediction/agent_motion_config.yaml -q
+wget https://github.com/alokguptaxilinx/testapp/blob/main/config.yaml -q
 
 # Install L5Kit
 echo "Installing L5kit..."
